@@ -1,3 +1,4 @@
+const { watch } = require("fs")
 const path = require("path")
 
 module.exports = {
@@ -7,4 +8,5 @@ module.exports = {
         path: path.resolve(__dirname, "app")
     },
     mode: "development"
+    watch: true
 }
